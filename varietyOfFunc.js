@@ -5,3 +5,10 @@ function calcTax(num) {
 }
 
 alert(calcTax(100));
+
+// 関数リテラル
+var sayHello = function (name) {
+    return name + 'さん、こんにちは!';
+}
+
+alert(sayHello('sekky0905'));
